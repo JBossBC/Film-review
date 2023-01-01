@@ -9,7 +9,7 @@
 
 + vue:使用他的MVVC(双向绑定的响应式数据)
 + bootstrap:使用他的css样式，主要用了模态框、表格、按钮、表单的样式
-+ echarts用来制作响应式图标
++ echarts用来制作响应式图表
 + jquery:用来定位dom元素(这里没使用原生的document,涉及到bootstrap的模态框绑定了jquery)
 + axios:向后端请求数据
 

@@ -18,9 +18,10 @@ from django.urls import path
 import movie_rate_system.views as mr
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path("index.html", mr.getIndexHtml),
+    path("", mr.getIndexHtml),
+    path("index", mr.getIndexHtml),
     path("movies/query", mr.queryMovies),
     path("movies/get", mr.getMovies),
     path("moviesRate/get",mr.getMovieRate),
-    path("moviesTag/get",mr.getMoviesTag)
+    path("moviesTag/get",mr.getMoviesTag),
 ]
